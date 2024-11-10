@@ -1,0 +1,22 @@
+﻿  game.c
+F:\VS\VS_study\game1\game1\game.c(88,16): warning C4047: “=”:“char”与“char [2]”的间接级别不同
+F:\VS\VS_study\game1\game1\game.c(111,6): warning C4142: "IsWin": 类型的良性重定义
+      F:\VS\VS_study\game1\game1\game.h(20,6):
+      参见“IsWin”的声明
+  
+F:\VS\VS_study\game1\game1\game.c(115,78): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+F:\VS\VS_study\game1\game1\game.c(117,3): warning C4098: “IsWin”:“void”函数返回值
+F:\VS\VS_study\game1\game1\game.c(120,78): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+F:\VS\VS_study\game1\game1\game.c(122,3): warning C4098: “IsWin”:“void”函数返回值
+F:\VS\VS_study\game1\game1\game.c(125,78): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+F:\VS\VS_study\game1\game1\game.c(126,3): warning C4098: “IsWin”:“void”函数返回值
+F:\VS\VS_study\game1\game1\game.c(127,78): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+F:\VS\VS_study\game1\game1\game.c(128,6): warning C4098: “IsWin”:“void”函数返回值
+F:\VS\VS_study\game1\game1\game.c(132,3): warning C4098: “IsWin”:“void”函数返回值
+F:\VS\VS_study\game1\game1\game.c(134,2): warning C4098: “IsWin”:“void”函数返回值
+  test.c
+  正在生成代码...
+F:\VS\VS_study\game1\game1\game.c(109,1): warning C4715: “IsFull”: 不是所有的控件路径都返回值
+test.obj : error LNK2019: 无法解析的外部符号 InitBoard，函数 game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 PlayerMove，函数 game 中引用了该符号
+F:\VS\VS_study\game1\game1\x64\Debug\game1.exe : fatal error LNK1120: 2 个无法解析的外部命令
